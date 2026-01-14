@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: python src/training/train.py
+    deps:
+      - src/training/train.py
+      - data/iris.csv
+      - params.yaml
+    outs:
+      - models/model.joblib
