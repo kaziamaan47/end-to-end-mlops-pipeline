@@ -3,7 +3,8 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 mlruns/
-models/
+models/*
+!models/model.joblib
 data/*
 !data/*.dvc
 .DS_Store
